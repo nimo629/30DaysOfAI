@@ -9,7 +9,6 @@ MD_DIR = pathlib.Path('md')
 # --- Helper Functions ---
 def update_params():
     """Updates the URL query param to the selected number."""
-    # 'day_selection' now holds the number (e.g., 2) directly
     st.query_params.day = st.session_state.day_selection
 
 def format_day(day_num):
